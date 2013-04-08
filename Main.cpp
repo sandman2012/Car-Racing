@@ -26,12 +26,7 @@ void draw_road_side(){
 void draw_sand(){
 	
 	iSetColor(0,0,0);
-	for(int i=0;i<100;i++){
-		double x=rand()%250;
-		double y=rand()%690;
-		iPoint(x,y);
-	}
-
+	
 
 }
 void draw_main_road(){
